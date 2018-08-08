@@ -2,7 +2,7 @@
         r: Double,
         g: Double,
         b: Double,
-        a: CGFloat
+        a: CGFloat = 1
     ) -> UIColor
     {
         let red:CGFloat = CGFloat(r/255.0)
